@@ -185,7 +185,6 @@ header .shop_menu a {
 }
 
 .mobile_menu {
-  border: 1px solid blue;
   width: 32px;
   height: 32px;
   font-size: 0;
@@ -265,7 +264,6 @@ header .shop_menu a {
 
 .product .text{
   position: absolute;
-  border: 1px solid rebeccapurple;
   font-weight: 700;
   bottom: 0;
   margin-bottom: 30%;
