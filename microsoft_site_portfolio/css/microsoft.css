@@ -87,7 +87,6 @@ header {
   display: flex;
 }
 .logo {
-  border: 1px solid red;
   width: 108px;
   height: 23px;
   padding: 16px 8px 10px;
@@ -153,42 +152,35 @@ header .shop_menu a {
 }
 
 .utill_menu .search {
-  border: 1px solid red;
   width: 16px;
   height: 18px;
   font-size: 0;
   margin-left: 2px;
   background-image: url('../img/ico_search.svg');
-  background-repeat: no-repeat; /*이미지 반복 금지*/
+  background-repeat: no-repeat;
   background-position: 50% 50%;
-  /* background-size: cover; 사진이 잘려도 꽉차게*/
-  /* background-size: contain; 공간이 남아도 꽉차게 */
+
   background-size: 30px;
 }
 .utill_menu .cart {
-  border: 1px solid red;
   width: 16px;
   height: 18px;
   font-size: 0;
   margin-left: 2px;
   background-image: url('../img/ico_cart.svg');
-  background-repeat: no-repeat; /*이미지 반복 금지*/
+  background-repeat: no-repeat;
   background-position: 50% 50%;
-  /* background-size: cover; 사진이 잘려도 꽉차게*/
-  /* background-size: contain; 공간이 남아도 꽉차게 */
+
   background-size: 30px;
 }
 .utill_menu .my {
-  border: 1px solid red;
   width: 32px;
   height: 18px;
   font-size: 0;
   margin-left: 2px;
   background-image: url('../img/ico_my.svg');
-  background-repeat: no-repeat; /*이미지 반복 금지*/
+  background-repeat: no-repeat;
   background-position: 50% 50%;
-  /* background-size: cover; 사진이 잘려도 꽉차게*/
-  /* background-size: contain; 공간이 남아도 꽉차게 */
   background-size: 30px;
 }
 
@@ -199,16 +191,15 @@ header .shop_menu a {
   font-size: 0;
   margin-left: 2px;
   background-image: url('../img/ico_more.svg');
-  background-repeat: no-repeat; /*이미지 반복 금지*/
+  background-repeat: no-repeat; 
   background-position: 50% 50%;
-  /* background-size: cover; 사진이 잘려도 꽉차게*/
-  /* background-size: contain; 공간이 남아도 꽉차게 */
+
   background-size: 30px;
 }
 
 /* text */
 .text {
-  border: 1px solid red;
+
 }
 .visual > .text > h2 {font-size: 32px;}
 .visual > .text > p {
@@ -236,14 +227,12 @@ header .shop_menu a {
 }
 
 .about h2 {
-  border: 1px solid blue;
   text-align: center;
   display: block;
 }
 
 /* =================== product  =================== */
 .product{
-  border: 5px solid violet;
   margin: 20px 100px;
 }
 /* =================== product shop =================== */
@@ -262,7 +251,6 @@ header .shop_menu a {
 }
 
 .shop h2 {
-  border: 1px solid blue;
   text-align: center;
   display: block;
 }
@@ -302,7 +290,6 @@ header .shop_menu a {
 /* =================== 미디어 쿼리 =================== */
 /* 720 부터~ pad */
 @media screen and (min-width:720px) {
-    body {background-color: red;}
     /* .shop_menu {display: none;}     */
     .utill_menu {
       margin-right: 0;
@@ -338,7 +325,6 @@ header .shop_menu a {
   }
   .product .text {
     background-color: white;
-    border: 1px solid blue;
     padding: 0 10px 0 10px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
     margin-bottom: -30%;
@@ -372,7 +358,6 @@ header .shop_menu a {
 }
     /* 990 부터 ~ desktop */
     @media screen and (min-width:990px) {
-    body {background-color: orange;}
     .mobile_menu {display: none;}
     .utill_menu {
       margin-right: 0;
@@ -386,7 +371,6 @@ header .shop_menu a {
 
     /* 1200~ */
     @media screen and (min-width:1200px) {
-    body {background-color: lime;}
     }
 
 
