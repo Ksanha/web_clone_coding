@@ -192,8 +192,9 @@ header .shop_menu a {
   background-image: url('../img/ico_more.svg');
   background-repeat: no-repeat; 
   background-position: 50% 50%;
-
   background-size: 30px;
+  background-color: white;
+  border: 1px solid transparent;
 }
 
 /* text */
