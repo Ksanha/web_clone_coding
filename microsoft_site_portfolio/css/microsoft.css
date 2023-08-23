@@ -255,7 +255,7 @@ header .shop_menu a {
   display: block;
 }
 /* =================== product xbox =================== */
-.product {
+.xbox {
   position: relative;
 }
 
@@ -284,6 +284,10 @@ header .shop_menu a {
   line-height: 1.5;
 }
 
+/* 
+.product > .main_title {
+
+} */
 
 
 /* =================== 미디어 쿼리 =================== */
@@ -313,6 +317,7 @@ header .shop_menu a {
     margin: 0 auto;
     align-items: center;
   }
+  /* utill_menu */
   .utill_menu  {align-items: end;}
   .utill_menu .msall {display: none;}
   .utill_menu .search {display: none;}
@@ -322,16 +327,16 @@ header .shop_menu a {
     padding: 0 10px 0 10px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
   }
-  .product .text {
+  /* .product .text */
+  .product > .text {
+    border: 1px solid red;
     background-color: white;
     padding: 0 10px 0 10px;
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
     margin-bottom: -30%;
-    margin-left: auto;
   }
-  .product .text h2, p{
+  .product .text h2{
     color: black;
-
   }
   .product .text p{
     color: black;
